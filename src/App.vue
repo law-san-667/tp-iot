@@ -1,11 +1,15 @@
 <template>
   <div class="container mx-auto py-8">
-    <h1 class="text-3xl font-bold mb-4">Graphique de données IoT</h1>
+    <h1 class="text-3xl font-bold mb-4">Graphique de données aléatoires</h1>
     <div v-if="loading">Chargement en cours...</div>
     <div v-else>
       <Chart :chartData="chartData" v-if="chartData" />
       <button @click="refreshChart" class="mt-16">Rafraîchir le graphique</button>
     </div>
+    <!-- Footer with Copyright-->
+    <footer class="text-center mt-8">
+      <p class="text-gray-500">© 2024 Mouhamed Lawal Dan Azoumi</p>
+    </footer>
   </div>
 </template>
 
