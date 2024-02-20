@@ -29,7 +29,7 @@ export default {
   methods: {
     async fetchData() {
       try {
-        const response = await axios.get('http://localhost:5000/getData');
+        const response = await axios.get('https://tp-iot-api.vercel.app/getData');
         console.log('Résultats:', response.data);
 
         this.chartData = {
