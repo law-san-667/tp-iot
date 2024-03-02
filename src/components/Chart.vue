@@ -34,10 +34,10 @@ export default defineComponent({
         options: {
           scales: {
             x: {
-              type: 'time',
-              time: {
-                unit: 'day'
-              }
+              display: false,
+              type: 'category', // Utilisation de l'échelle de type 'category'
+              labels: chartData.labels, // Utilisation des labels fournis
+              position: 'bottom'
             }
           }
         }
