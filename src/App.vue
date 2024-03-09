@@ -13,7 +13,7 @@
       <p class="text-gray-500">Mouhamed Lawal Dan Azoumi</p>
       <p class="text-gray-500">Cathy Sadykh Diaw</p>
       <p class="text-gray-500">Cheikh Nourou Sow</p>
-      <p class="text-gray-500">Barhame Sokkhna</p>
+      <p class="text-gray-500">Barhame Sokhna</p>
     </footer>
   </div>
 </template>
