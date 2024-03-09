@@ -4,11 +4,16 @@
     <div v-if="loading">Chargement en cours...</div>
     <div v-else>
       <Chart :chartData="chartData" v-if="chartData" />
-      <button @click="refreshChart" class="mt-16">Rafraîchir le graphique</button>
+      <!--button is black and text is white-->
+      <button @click="refreshChart" class="mt-16 bg-black text-white px-4 py-2 rounded-md">Rafraîchir le graphique</button>
     </div>
     <!-- Footer with Copyright-->
     <footer class="text-center mt-8">
-      <p class="text-gray-500">© 2024 Mouhamed Lawal Dan Azoumi</p>
+      <p class="text-gray-500">© 2024 </p>
+      <p class="text-gray-500">Mouhamed Lawal Dan Azoumi</p>
+      <p class="text-gray-500">Cathy Sadykh Diaw</p>
+      <p class="text-gray-500">Cheikh Nourou Sow</p>
+      <p class="text-gray-500">Barhame Sokkhna</p>
     </footer>
   </div>
 </template>
