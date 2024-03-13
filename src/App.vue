@@ -11,6 +11,7 @@
     <footer class="text-center mt-8">
       <p class="text-gray-500">© 2024 </p>
       <p class="text-gray-500">Mouhamed Lawal Dan Azoumi</p>
+      <p class="text-gray-500">Oumar Diop</p>
       <p class="text-gray-500">Cathy Sadykh Diaw</p>
       <p class="text-gray-500">Cheikh Nourou Sow</p>
       <p class="text-gray-500">Barhame Sokhna</p>
